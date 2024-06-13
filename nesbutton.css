@@ -83,3 +83,9 @@ button:focus {
   content: '';
   box-shadow: inset -4px -4px #adafbc;
 }
+
+.nes-btn:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e7e7e7;
+}
