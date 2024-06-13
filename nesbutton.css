@@ -89,3 +89,7 @@ button:focus {
   text-decoration: none;
   background-color: #e7e7e7;
 }
+
+.nes-btn:hover::after {
+  box-shadow: inset -6px -6px #adafbc; 
+}
