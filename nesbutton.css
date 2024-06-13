@@ -104,3 +104,135 @@ button:focus {
 .nes-btn:active:not(.is-disabled)::after {
   box-shadow: inset 4px 4px #adafbc;
 }
+
+.nes-btn.is-primary {
+  color: #fff;
+  background-color: #209cee;
+}
+
+.nes-btn.is-primary::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: '';
+  box-shadow: inset -4px -4px #006bb3;
+}
+
+.nes-btn.is-primary:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #108de0;
+}
+
+.nes-btn.is-primary:hover::after {
+  box-shadow: inset -6px -6px #006bb3; 
+}
+
+.nes-btn.is-primary:focus {
+  box-shadow: 0 0 0 6px rgba(0, 107, 179, 0.3);
+}
+
+.nes-btn.is-primary:active:not(.is-disabled)::after {
+  box-shadow:inset 4px 4px #006bb3;
+}
+
+.nes-btn.is-success {
+  color: #fff;
+  background-color: #92cc41;
+}
+
+.nes-btn.is-success::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px #4aa52e;
+}
+
+.nes-btn.is-success:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #76c442;
+}
+
+.nes-btn.is-success:hover::after {
+  box-shadow: inset -6px -6px #4aa52e;
+}
+
+.nes-btn.is-success:focus {
+  box-shadow: 0 0 0 6px rgba(74, 165, 46, 0.3);
+}
+
+.nes-btn.is-success:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px #4aa52e;
+}
+
+.nes-btn.is-warning {
+  color: #212529;
+  background-color: #f7d51d;
+}
+
+.nes-btn.is-warning::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px #e59400;
+}
+
+.nes-btn.is-warning:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #f2c409;
+}
+
+.nes-btn.is-warning:hover::after {
+  box-shadow: inset -6px -6px #e59400;
+}
+
+.nes-btn.is-warning:focus {
+  box-shadow: 0 0 0 6px rgba(229, 148, 0, 0.3);
+}
+
+.nes-btn.is-warning:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px #e59400;
+}
+
+.nes-btn.is-error {
+  color: #fff;
+  background-color: #e76e55;
+}
+
+.nes-btn.is-error::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px #8c2022;
+}
+
+.nes-btn.is-error:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ce372b;
+}
+
+.nes-btn.is-error:hover::after {
+  box-shadow: inset -6px -6px #8c2022;
+}
+
+.nes-btn.is-error:focus {
+  box-shadow: 0 0 0 6px rgba(140, 32, 34, 0.3);
+}
+
+.nes-btn.is-error:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px #8c2022;
+}
