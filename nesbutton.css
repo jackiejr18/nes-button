@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Press Start 2P';
+	src: url(Fonts/PressStart2P-Regular.ttf) format(truetype) ;
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P';
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center;    /* Vertical alignment */
+  height: 100vh;
+}
+
+button {
+  border-radius: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
