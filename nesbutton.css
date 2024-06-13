@@ -61,3 +61,25 @@ button:focus {
   color: #212529;
   background-color: #fff;
 }
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .nes-btn {
+    border-image-repeat: space;
+  }
+}
+
+@supports (-moz-appearence: meterbar) {
+  .nes-btn {
+    border-image-repeat: stretch;
+  }
+}
+
+.nes-btn::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: '';
+  box-shadow: inset -4px -4px #adafbc;
+}
