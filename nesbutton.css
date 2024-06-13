@@ -17,6 +17,8 @@
   justify-content: center; /* Horizontal alignment */
   align-items: center;    /* Vertical alignment */
   height: 100vh;
+  flex-direction: column;
+  gap: 15px;
 }
 
 button {
